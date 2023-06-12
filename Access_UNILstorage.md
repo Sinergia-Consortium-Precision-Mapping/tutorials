@@ -4,7 +4,7 @@
 
 A storage space has been created on the UNIL server to store the data of the SINERGIA project so every member can easily access them for their analyses.
 
-## UNIL Cluster
+## UNIL Clusters
 UNIL has 2 clusters called respectively Curnagl and Urblauna. 
 Curnagl is the regular cluster while Urblauna is dedicated to sensitive data and accordingly has more restrictions.
 
