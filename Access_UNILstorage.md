@@ -17,6 +17,10 @@ https://wiki.unil.ch/ci/books/high-performance-computing-hpc/page/urblauna
 The complete procedure to get access to UNIL cluster is generally described in the UNIL wiki on this page:  
 https://wiki.unil.ch/ci/books/high-performance-computing-hpc/page/how-to-access-the-clusters
 
-To be able to access the UNIL cluster and storage space, you need to have an UNIL username.
-
+More specifically, in the context on our SINERGIA project, the steps you will have to follow are the following:
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
 
