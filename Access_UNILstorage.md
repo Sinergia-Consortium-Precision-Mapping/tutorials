@@ -33,5 +33,11 @@ Patric should then validate your account. </li>
     <li>Once your account is approved, you need to activate it and link it with your switch EduID on id.unil.ch.</li>
   </ul>
   <li>  Send your UNIL username to me or Patric, and Patric can give your permission to the correct respositories on the server.</li>
-  <li>  Activate <a href="https://www.unil.ch/ci/fr/home/menuinst/catalogue-de-services/reseau-et-telephonie/acces-hors-campus-vpn/documentation.html" UNIL VPN </a> </li>
+  <li>  Activate <a href="https://www.unil.ch/ci/fr/home/menuinst/catalogue-de-services/reseau-et-telephonie/acces-hors-campus-vpn/documentation.html"> UNIL VPN </a>. The connection to UNIL VPN is made from your switch EduID username and password. </li>
+    <li> You  can  <a href="https://wiki.unil.ch/ci/books/high-performance-computing-hpc/page/urblauna-access-and-data-transfer"> log in on Urblauna </a> using your UNIL username and password via: </li>
+  <ul>
+  <li>the web interface: u-web.dcsr.unil.ch </li>
+  <li>the SSH interface: ssh username@u-ssh.dcsr.unil.ch  </li>
+</ul>
+  
 </ol>
