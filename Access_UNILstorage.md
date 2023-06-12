@@ -18,9 +18,12 @@ The complete procedure to get access to UNIL cluster is generally described in t
 https://wiki.unil.ch/ci/books/high-performance-computing-hpc/page/how-to-access-the-clusters
 
 More specifically, in the context on our SINERGIA project, the steps you will have to follow are the following:
-<ul>
-  <li>Coffee</li>
+<ol>
+  <li> If you don't have one, create a UNIL account </li>
+  You can follow this procedure : https://wiki.unil.ch/ci/books/high-performance-computing-hpc/page/providing-access-to-external-collaborators
+  
+  
+  
   <li>Tea</li>
   <li>Milk</li>
-</ul>
-
+</ol>
