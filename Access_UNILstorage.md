@@ -39,5 +39,14 @@ Patric should then validate your account. </li>
   <li>the web interface: u-web.dcsr.unil.ch </li>
   <li>the SSH interface: ssh username@u-ssh.dcsr.unil.ch  </li>
 </ul>
-  
 </ol>
+
+
+## Data Organization
+
+The data are located on /data/PRTNR/CHUV/RADMED/phagmann/sinergia2sens. 
+
+
+
+
+
