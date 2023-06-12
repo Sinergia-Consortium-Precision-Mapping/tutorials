@@ -31,11 +31,7 @@ More specifically, in the context on our SINERGIA project, the steps you will ha
     <li> Fill <a href="https://wayf.switch.ch/SWITCHaai/WAYF?entityID=https%3A%2F%2Fprdlamp2.unil.ch%2Fshibboleth&return=https%3A%2F%2Fwww2.unil.ch%2FShibboleth.sso%2FLogin%3FSAMLDS%3D1%26target%3Dss%253Amem%253A7f5a2e2091957a748dac804d49fef21f75beae737de1717e0876f6abde37ce30"> the form </a> for the creation of the UNIL IT account (account without email). The name of the PI for the form is Patric Hagmann, patric.hagmann@unil.ch 
 Patric should then validate your account. </li>
     <li>Once your account is approved, you need to activate it and link it with your switch EduID on id.unil.ch.</li>
-    <li>For the final step, you can send your UNIL username to me or Patric, and Patric can give your permission to the correct respositories on the server. </li>
   </ul>
-  
-  
-  
-  <li>Tea</li>
+  <li>  Send your UNIL username to me or Patric, and Patric can give your permission to the correct respositories on the server.</li>
   <li>Milk</li>
 </ol>
