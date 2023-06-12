@@ -33,5 +33,5 @@ Patric should then validate your account. </li>
     <li>Once your account is approved, you need to activate it and link it with your switch EduID on id.unil.ch.</li>
   </ul>
   <li>  Send your UNIL username to me or Patric, and Patric can give your permission to the correct respositories on the server.</li>
-  <li>Milk</li>
+  <li>  Activate <a href="https://www.unil.ch/ci/fr/home/menuinst/catalogue-de-services/reseau-et-telephonie/acces-hors-campus-vpn/documentation.html" UNIL VPN </a> </li>
 </ol>
