@@ -5,7 +5,7 @@
 A storage space has been created on the UNIL server to store the data of the SINERGIA project so every member can easily access them for their analyses.
 
 ## UNIL Cluster
-UNIL cluster is called Urblauna and information about its infrastructure can be found here:
+UNIL cluster is called Urblauna and information about its infrastructure can be found here:  
 https://wiki.unil.ch/ci/books/high-performance-computing-hpc/page/urblauna
 
 
