@@ -1,6 +1,6 @@
 
 
-# UNIL storage space - How to access and exchange data?  
+# UNIL storage space - Access and exchange data
 
 <i> For any question regarding this tutorial, please contact emeline.mullier@chuv.ch </i>
 <br/>
