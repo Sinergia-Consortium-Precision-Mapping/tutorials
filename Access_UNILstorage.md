@@ -54,8 +54,12 @@ Patric should then validate your account. </li>
 ## 3. Data Organization
 
 The repositories available for the SINERGIA project are the following:
+
+<i> Sensitive Data - URBLAUNA </i>
  - For DATA, with recurrent access:  /data/PRTNR/CHUV/RADMED/phagmann/sinergia2sens 
  - For ARCHIVE, not frequent access: /archive/PRTNR/CHUV/RADMED/phagmann/sinergia2sens 
+
+<i> Regular Data - CURNAGL </i>
 
 
 
