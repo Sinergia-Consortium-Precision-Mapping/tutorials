@@ -59,6 +59,8 @@ The repositories available for the SINERGIA project are the following:
  - For DATA, with recurrent access:  /data/PRTNR/CHUV/RADMED/phagmann/sinergia2sens 
  - For ARCHIVE, not frequent access: /archive/PRTNR/CHUV/RADMED/phagmann/sinergia2sens 
 
+<img src="img/Urblauna.jpg" alt="urblauna_bird">
+
 <i> Regular Data - CURNAGL </i>
 
 
