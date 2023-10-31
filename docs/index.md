@@ -1,20 +1,16 @@
 # SINERGIA - PRECISION BRAIN MAPPING
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Tutorials for the collaborators of the grant Precision Brain Mapping [2023 - 2027]
+
 
 ## BIDS ORGANIZATION 
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+
+	BIDS specification: 
 
 ## CONNEXION TO UNIL STORAGE
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+		UNIL Wiki: 
 
 ## FLYWHEEL
 
