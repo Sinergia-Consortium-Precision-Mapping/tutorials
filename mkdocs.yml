@@ -1,0 +1,6 @@
+site_name: SINERGIA Precision  Brain Mapping
+site_url: https://example.com/
+nav:
+  - Home: 'index.md'
+  - About: 'about.md'
+theme: readthedocs
