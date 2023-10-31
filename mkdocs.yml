@@ -1,5 +1,5 @@
-site_name: SINERGIA Precision  Brain Mapping
-site_url: https://example.com/
+site_name: TUTORIALS - SINERGIA Precision  Brain Mapping
+site_url: hhttps://sinergia-consortium-precision-mapping.github.io/tutorials
 nav:
   - Home: 'index.md'
   - About: 'about.md'
