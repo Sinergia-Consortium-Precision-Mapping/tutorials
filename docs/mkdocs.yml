@@ -1,0 +1,9 @@
+site_name: tutorials
+site_url: https://sinergia-consortium-precision-mapping.github.io/tutorials
+
+nav:
+  - 'Home': 'index.md'
+  - 'About': 'about.md'
+
+theme:
+  name: material
