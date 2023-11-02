@@ -11,6 +11,8 @@ BIDS specification:
 
 # CONNEXION TO UNIL STORAGE
 
+Two storage spaces are available on UNIL servers to store the project's data.
+
 **CURNAGL** - UNIL HPC Cluster
 For all the detailed information: [CURNAGL WIKI UNIL](https://wiki.unil.ch/ci/books/high-performance-computing-hpc/page/curnagl)
 
