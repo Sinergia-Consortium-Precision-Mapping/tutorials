@@ -13,14 +13,22 @@ BIDS specification:
 
 Two storage spaces are available on UNIL servers to store the project's data.
 
-**CURNAGL** - UNIL HPC Cluster
-For all the detailed information: [CURNAGL WIKI UNIL](https://wiki.unil.ch/ci/books/high-performance-computing-hpc/page/curnagl)
+*REGULAR DATA*
+>**CURNAGL** - UNIL HPC Cluster
+>For all the detailed information: [CURNAGL WIKI UNIL](https://wiki.unil.ch/ci/books/high-performance-computing-hpc/page/curnagl)
 
 ![type:video](./tutos_videos/Tuto_Connexion_Curnagl_UNIL.mp4)
 
-**URBLAUNA** - UNIL Sensitive data compute cluster
-For all the detailed information: [URBLAUNA WIKI UNIL] (https://wiki.unil.ch/ci/books/high-performance-computing-hpc/page/urblauna)
 
+>*SENSITIVE DATA*
+>**URBLAUNA** - UNIL Sensitive data compute cluster
+>For all the detailed information: [URBLAUNA WIKI UNIL] (https://wiki.unil.ch/ci/books/high-performance-computing-hpc/page/urblauna)
+
+
+## Access to UNIL storage space
+
+With your UNIL username 
+You don't have UNIL username, please contact: 
 
 
 # FLYWHEEL

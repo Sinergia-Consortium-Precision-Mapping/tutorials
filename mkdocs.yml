@@ -7,9 +7,9 @@ nav:
   - 'About': 'about.md'
 plugins:
   - mkdocs-video:
-    is_video: True
-    video_muted: True
-    video_controls: True
+      is_video: True
+      video_muted: True
+      video_controls: True
 
 theme:
   name: 'material'
