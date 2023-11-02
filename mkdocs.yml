@@ -5,5 +5,12 @@ repo_name: 'Sinergia-Consortium-Precision-Mapping/tutorials'
 nav:
   - 'Home': 'index.md'
   - 'About': 'about.md'
+plugins:
+  - mkdocs-video:
+	is_video: True
+	video_muted: True
+	video_controls: True
+	css_style:
+           width: "50%"
 theme:
   name: 'material'
