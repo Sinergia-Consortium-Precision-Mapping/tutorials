@@ -10,6 +10,9 @@ plugins:
       is_video: True
       video_muted: True
       video_controls: True
+      css_style:
+        width: "50%"
+      
 
 theme:
   name: 'material'
