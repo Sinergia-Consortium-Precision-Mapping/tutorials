@@ -13,11 +13,12 @@ jobs:
   docs:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - uses: actions/setup-python@v2
+      - uses: actions/setup-python@v3
       - run: pip install --upgrade pip && pip install mkdocs mkdocs-gen-files mkdocs-material
       - run: git config user.name 'github-actions[bot]' && git config user.email 'github-actions[bot]@users.noreply.github.com'
+      - run: mkdocs build
       - name: Publish docs
         run: mkdocs gh-deploy
