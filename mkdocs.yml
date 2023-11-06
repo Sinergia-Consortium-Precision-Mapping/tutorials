@@ -26,4 +26,4 @@ plugins:
       remember_password: false
 
 theme:
-  name: 'readthedocs'
+  name: 'material'
