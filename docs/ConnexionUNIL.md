@@ -3,6 +3,8 @@
 
 # CONNEXION TO UNIL STORAGE
 
+## UNIL Storage Spaces
+
 Two storage spaces are available on UNIL servers to store the project's data.
 
 ![unilstor](img/UNILstorage.png){width=60%}
@@ -29,16 +31,20 @@ Command Line:
 
 
 
-
-
 ## Access to UNIL storage space
 
-With your UNIL username 
+- CURNAGL
+	- Simple authentication with your UNIL username
+- URBLAUNA
+	- Double authentication
+		- with your UNIL username
+		- and confirmation via phone application (authenticator)
 
 
 
 
-# Connexion to the servers [Tutos videos]
+
+## Connexion to the servers [Tutos videos]
 
 ![type:video](./tutos_videos/Tuto_Connexion_Curnagl_UNIL.mp4)
 
