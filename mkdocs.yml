@@ -18,8 +18,7 @@ plugins:
         width: "50%"
   - search: {}
   - encryptcontent:
-      #global_password: 'Sinergia2023'
-      password_file: 'passwords.yml'
+      global_password: 'Sinergia2023'
 
 theme:
   name: 'readthedocs'
