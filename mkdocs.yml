@@ -25,7 +25,7 @@ plugins:
       password_button_text: 'ENTER'
       decryption_failure_message: 'Wrong user name or password.'
       encryption_info_message: 'Legitimation required.'
-      html_template_path: "decrypt-form.tpl.html" # override default html template
+      #html_template_path: "decrypt-form.tpl.html" # override default html template
       password_button: True
       input_class: 'w3-input' # CSS class used for input username and password
       button_class: 'w3-button w3-theme-l1 w3-hover-theme' # CSS class for password_button
