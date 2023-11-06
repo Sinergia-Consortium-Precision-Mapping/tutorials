@@ -20,11 +20,13 @@ Command Line:
 **URBLAUNA** - UNIL Sensitive data compute cluster
 For all the detailed information: [URBLAUNA WIKI UNIL] (https://wiki.unil.ch/ci/books/high-performance-computing-hpc/page/urblauna)
 
+![unilstor](img/UNILstorage.png)
+
 
 ## Access to UNIL storage space
 
 With your UNIL username 
-You don't have UNIL username, please contact: 
+
 
 
 
