@@ -12,7 +12,7 @@ A lot of barriers exit for Open Science:
 
 The 8 pillars of Open Science defined by the European Commission. 
 ![pillars](img/OpenSciencePillars.png)
-<img src="OpenSciencePillars.png" alt="drawing" width="20"/>
+<img src="img/OpenSciencePillars.png" alt="pillars" width=50%/>
 
 All the datasets released by the consortium must respect the FAIR principles:
 ![fairprin](img/FAIR.png)
