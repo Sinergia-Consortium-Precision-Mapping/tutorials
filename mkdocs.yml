@@ -20,6 +20,10 @@ plugins:
   - encryptcontent:
       global_password: 'Sinergia2023'
       title_prefix: '[LOCK]'
+      summary: 'This website is for SINERGIA collaborator only. Please provide the password to access the content.'
+      encryption_info_message: 'Wrong password'
+      input_class: 'md-search__form md-search__input'
+      button_class: 'md-search__icon' 
 
 
 theme:
