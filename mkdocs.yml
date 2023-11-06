@@ -24,7 +24,10 @@ plugins:
       encryption_info_message: 'Please provide the password to access the content.'
       input_class: 'md-search__form md-search__input'
       button_class: 'md-search__icon' 
-
+      password_button: True
+      input_class: 'w3-input' # CSS class used for input username and password
+      button_class: 'w3-button w3-theme-l1 w3-hover-theme' # CSS class for password_button
+      remember_password: false
 
 theme:
   name: 'readthedocs'
