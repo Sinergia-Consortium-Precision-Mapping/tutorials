@@ -1,13 +1,4 @@
 ﻿
-# SINERGIA - PRECISION BRAIN MAPPING
-
-Tutorials for the collaborators of the grant Precision Brain Mapping [2023 - 2027]
-
-
-
-
-# BIDS ORGANIZATION 
-BIDS specification: 
 
 
 # CONNEXION TO UNIL STORAGE
@@ -36,11 +27,5 @@ With your UNIL username
 You don't have UNIL username, please contact: 
 
 
-# FLYWHEEL
 
 
-
-
-
-
-# DATALAD ON UNIL STORAGE
