@@ -25,5 +25,9 @@ plugins:
       encryption_info_message: 'Please provide the password to access the content.'
       remember_password: false
 
+markdown_extensions:
+  - attr_list
+  - md_in_html
+
 theme:
   name: 'material'
