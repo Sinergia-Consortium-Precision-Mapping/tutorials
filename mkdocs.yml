@@ -15,4 +15,4 @@ plugins:
       
 
 theme:
-  name: 'readthedocs'
+  name: 'Material'
