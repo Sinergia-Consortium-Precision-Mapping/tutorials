@@ -19,6 +19,8 @@ plugins:
   - search: {}
   - encryptcontent:
       global_password: 'Sinergia2023'
+      title_prefix: '[LOCK]'
+
 
 theme:
   name: 'readthedocs'
