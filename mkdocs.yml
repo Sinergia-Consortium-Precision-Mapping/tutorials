@@ -19,9 +19,9 @@ plugins:
   - search: {}
   - encryptcontent:
       global_password: 'Sinergia2023'
-      title_prefix: '[LOCK]'
-      summary: 'This website is for SINERGIA collaborator only. Please provide the password to access the content.'
-      encryption_info_message: 'Wrong password'
+      title_prefix: '[PROTECTED]'
+      summary: 'This website is for SINERGIA collaborator only. '
+      encryption_info_message: 'Please provide the password to access the content.'
       input_class: 'md-search__form md-search__input'
       button_class: 'md-search__icon' 
 
