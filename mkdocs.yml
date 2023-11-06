@@ -5,6 +5,10 @@ repo_name: 'Sinergia-Consortium-Precision-Mapping/tutorials'
 nav:
   - 'Home': 'index.md'
   - 'About': 'about.md'
+  - 'BIDS organization': 'BIDSorganization.md'
+  - 'UNIL storage': 'ConnexionUNIL.md'
+  - 'FlyWheel Platform': 'Flywheel.md'
+  - 'DATALAD': 'Datalad.md'
 plugins:
   - mkdocs-video:
       is_video: True
