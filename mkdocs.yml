@@ -36,4 +36,5 @@ theme:
   font:
     code: Cambria
   logo: img/logo.png
+  favicon: img/logo.png
 
