@@ -15,7 +15,7 @@ plugins:
       video_muted: True
       video_controls: True
       css_style:
-        width: "50%"
+        width: "60%"
   - search: {}
   - encryptcontent:
       global_password: 'Sinergia2023'
@@ -42,4 +42,8 @@ theme:
     - navigation.tabs.sticky
     - navigation.expand
     - navigation.sections
-
+    - navigation.indexes
+    - toc.integrate
+extra:
+  version:
+    provider: mike
