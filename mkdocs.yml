@@ -5,6 +5,7 @@ repo_name: 'Sinergia-Consortium-Precision-Mapping/tutorials'
 nav:
   - 'Home': 'index.md'
   - 'About': 'about.md'
+  - 'Open Science': 'OpenScience.md'
   - 'BIDS organization': 'BIDSorganization.md'
   - 'UNIL storage': 'ConnexionUNIL.md'
   - 'FlyWheel Platform': 'Flywheel.md'
@@ -19,14 +20,9 @@ plugins:
   - search: {}
   - encryptcontent:
       global_password: 'Sinergia2023'
-      title_prefix: '[PROTECTED]'
+      title_prefix: ''
       summary: 'This website is for SINERGIA collaborator only. '
       encryption_info_message: 'Please provide the password to access the content.'
-      input_class: 'md-search__form md-search__input'
-      button_class: 'md-search__icon' 
-      password_button: True
-      #input_class: 'w3-input' # CSS class used for input username and password
-      #button_class: 'w3-button w3-theme-l1 w3-hover-theme' # CSS class for password_button
       remember_password: false
 
 theme:
