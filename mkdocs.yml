@@ -27,9 +27,12 @@ plugins:
 markdown_extensions:
   - attr_list
   - md_in_html
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 theme:
-  name: 'readthedocs'
+  name: 'material'
   palette:
     accent: 'dark'
     primary: 'teal'
