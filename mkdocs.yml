@@ -17,7 +17,8 @@ plugins:
       css_style:
         width: "50%"
   - search: {}
-  - encryptcontent: {}
+  - encryptcontent:
+      global_password: 'Sinergia2023'
       
 
 theme:
