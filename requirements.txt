@@ -2,3 +2,4 @@ mkdocs[i18n]
 mkdocs-material[imaging]
 mkdocs-video
 mkdocs-encryptcontent-plugin
+pymdown-extensions
