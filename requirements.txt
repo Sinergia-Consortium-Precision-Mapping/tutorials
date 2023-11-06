@@ -1,3 +1,4 @@
 mkdocs[i18n]
 mkdocs-material[imaging]
 mkdocs-video
+mkdocs-readthedocs
