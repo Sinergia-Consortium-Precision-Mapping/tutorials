@@ -31,5 +31,6 @@ markdown_extensions:
 theme:
   name: 'material'
   palette:
-    primary: 'teal'
     accent: 'dark'
+    primary: 'teal'
+
