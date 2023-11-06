@@ -1,7 +1,6 @@
 ﻿
-# SINERGIA - PRECISION BRAIN MAPPING
 
-Tutorials for the collaborators of the grant Precision Brain Mapping [2023 - 2027]
+This website is dedicated to the tutorials for the collaborators of the grant Precision Brain Mapping [2023 - 2027]
 
 
 

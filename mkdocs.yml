@@ -29,7 +29,7 @@ markdown_extensions:
   - md_in_html
 
 theme:
-  name: 'material'
+  name: 'readthedocs'
   palette:
     accent: 'dark'
     primary: 'teal'
@@ -47,4 +47,4 @@ theme:
 extra:
   version:
     provider: mike
-copyright: Copyright &copy; 2023 - 2023 EM, Connectomics Lab, Lausanne University Hospital
+copyright: Copyright &copy; 2023 - 2027 EM, Connectomics Lab, Lausanne University Hospital
