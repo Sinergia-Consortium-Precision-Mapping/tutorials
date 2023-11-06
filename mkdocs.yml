@@ -1,4 +1,4 @@
-site_name: tutorials
+site_name: TUTORIALS COLLABORATORS SINERGIA
 site_description: 'Tutorials'
 docs_dir: docs/
 repo_name: 'Sinergia-Consortium-Precision-Mapping/tutorials'
@@ -47,3 +47,4 @@ theme:
 extra:
   version:
     provider: mike
+copyright: Copyright &copy; 2023 - 2023 EM, Connectomics Lab, Lausanne University Hospital
