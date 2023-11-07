@@ -4,6 +4,7 @@ docs_dir: docs/
 repo_name: 'Sinergia-Consortium-Precision-Mapping/tutorials'
 nav:
   - 'Home': 'index.md'
+  - 'Data Management Plan': 'DMP.md'
   - 'Open Science': 'OpenScience.md'
   - 'BIDS organization': 'BIDSorganization.md'
   - 'UNIL storage': 'ConnexionUNIL.md'

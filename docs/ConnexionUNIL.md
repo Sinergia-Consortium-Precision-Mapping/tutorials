@@ -21,8 +21,7 @@ For all the detailed information: [URBLAUNA WIKI UNIL](https://wiki.unil.ch/ci/b
 
 ## CURNAGL & URBLAUNA Characteristics
 
-![unilstor](img/UNILstorage.png){width=50%}
-
+#![unilstor](img/UNILstorage.png){width=50%}
 
 
 ## Getting the access
@@ -53,7 +52,7 @@ Getting UNIL access following this [procedure](https://wiki.unil.ch/ci/books/hig
 	ssh username@curnagl.dcsr.unil.ch
 3. Enter your UNIL password
 
-##### Video Example
+##### Step-by-step in video 
 
 How to connect to Curnagl:
 
@@ -71,6 +70,11 @@ How to connect to Curnagl:
 3. Enter your UNIL password
 4. Enter the verification code from your authenticator phone app
 
+##### Step-by-step in video 
+
+How to connect to Urblauna via Command Line:
+
+
 #### via Web Interface
 
 1. Open a web browser
@@ -78,8 +82,6 @@ How to connect to Curnagl:
 	u-web.dcsr.unil.ch
 3. Use your UNIL username and password
 4. Enter the verification code from your authenticator phone app
-
-
 
 
 
