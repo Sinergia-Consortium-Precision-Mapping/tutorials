@@ -24,40 +24,6 @@ For all the detailed information: [URBLAUNA WIKI UNIL](https://wiki.unil.ch/ci/b
 ![unilstor](img/UNILstorage.png){width=50%}
 
 
-## Connexion to Storage Spaces
-
-### Curnagl  
-1. Open a terminal
-2. Command Line:
-
-	ssh username@curnagl.dcsr.unil.ch
-3. Enter your UNIL password
-
-
-### Urblauna 
-
-#### via Command Line
-1. Open a terminal
-2. Command Line:
-
-	ssh username@u-ssh.dcsr.unil.ch
-
-3. Enter your UNIL password
-4. Enter the verification code from your authenticator app
-
-#### via Web Interface
-
-
-## Access to UNIL storage space
-
-- CURNAGL
-	- Simple authentication with your UNIL username
-- URBLAUNA
-	- Double authentication
-		- with your UNIL username
-		- and confirmation via phone application (authenticator)
-
-
 
 ## Getting the access
 
@@ -73,16 +39,47 @@ Getting UNIL access following this [procedure](https://wiki.unil.ch/ci/books/hig
 
 ## Connexion to UNIL VPN
 
-Download [Ivanti Secure Access Client](https://www.ivanti.com/products/secure-unified-client)  
-Connect using your switch edu-ID account  
-Confirm the identification on your phone using authenticator app.
+- Download [Ivanti Secure Access Client](https://www.ivanti.com/products/secure-unified-client)  
+- Connect using your switch edu-ID account  
+- Confirm the identification on your phone using authenticator app.
 
+## Connexion to Storage Spaces
 
+### Curnagl  
 
+1. Open a terminal
+2. Command Line:
 
+	ssh username@curnagl.dcsr.unil.ch
+3. Enter your UNIL password
 
-## Tutos - Videos
+##### Video Example
 
 How to connect to Curnagl:
+
 ![type:video](./tutos_videos/Tuto_Connexion_Curnagl_UNIL.mp4)
+
+
+### Urblauna 
+
+#### via Command Line
+1. Open a terminal
+2. Command Line:
+
+	ssh username@u-ssh.dcsr.unil.ch
+
+3. Enter your UNIL password
+4. Enter the verification code from your authenticator phone app
+
+#### via Web Interface
+
+1. Open a web browser
+2. Command Line:
+	u-web.dcsr.unil.ch
+3. Use your UNIL username and password
+4. Enter the verification code from your authenticator phone app
+
+
+
+
 
