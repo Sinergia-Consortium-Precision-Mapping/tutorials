@@ -48,6 +48,9 @@ theme:
     - navigation.sections
     - navigation.indexes
     - toc.integrate
+    - content.code.select
+    - content.code.copy
+    - content.code.annotate
 extra:
   version:
     provider: mike

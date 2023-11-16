@@ -14,6 +14,9 @@ Particularly, it can:
 - Supports collaboration
 
 
+## Install DataLad
+
+
 
 ## Basic commands with DataLad
 
@@ -24,6 +27,7 @@ All the possible commands and possibilities with DataLad are exhaustively explai
 
 1. Download  locally a small dataset from OpenNeuro
 
+``` py
     mkdir neuro-data-s3
 
     wget https://www.fil.ion.ucl.ac.uk/spm/download/data/MoAEpilot/MoAEpilot.bids.zip -O neuro-data-s3.zip
@@ -33,6 +37,14 @@ All the possible commands and possibilities with DataLad are exhaustively explai
     rm neuro-data-s3.zip && cd neuro-data-s3 
 
     mv MoAEpilot/* . && rm -R MoAEpilot
+```
+
+
+2. Turn local daatset into a DataLad Dataset
+
+    datalad create --force --description "Neurodata to host on Github and Curnagl"
+
+    datalad status
 
 
 
