@@ -7,12 +7,12 @@
 
 [Datalad](https://www.datalad.org/) is an open-source data management solution based on Git and Git-Annex.
 
-Particularly, it can:
+Particularly, it can:  
 
-- Keep track of your data
-- Create structure
-- Ensure reproducibility
-- Supports collaboration
+- Keep track of your data  
+- Create structure  
+- Ensure reproducibility  
+- Supports collaboration  
 
 
 ## Install DataLad
@@ -111,11 +111,11 @@ In your local directory again:
 
 You can check if all your siblings are correctly set and if the data are stored correctly on Github and Curnagl.
 
-![dataladfinal](img/FinalViewDataladCurnagl.png){width=50%}
+![dataladfinal](img/FinalViewDataladCurnagl.png){width=70%}
 
 
 
-### Step-by-Step video tutorial
+### Step-by-Step in video
 
 ![type:video](./tutos_videos/Tuto_Datalad_AnnexCurnagl.mp4)
 

@@ -10,14 +10,14 @@ Two storage spaces are available on UNIL servers to store the project's data.
 ![2stor](img/2storage.png){width=30%}
 
 
-*REGULAR DATA - CURNAGL*
-UNIL HPC Cluster
-For all the detailed information: [CURNAGL WIKI UNIL](https://wiki.unil.ch/ci/books/high-performance-computing-hpc/page/curnagl)
+*REGULAR DATA - CURNAGL*  
+UNIL HPC Cluster  
+For all the detailed information: [CURNAGL WIKI UNIL](https://wiki.unil.ch/ci/books/high-performance-computing-hpc/page/curnagl)  
 
 
-*SENSITIVE DATA - URBLAUNA* 
-UNIL Sensitive data compute cluster
-For all the detailed information: [URBLAUNA WIKI UNIL](https://wiki.unil.ch/ci/books/high-performance-computing-hpc/page/urblauna)
+*SENSITIVE DATA - URBLAUNA*   
+UNIL Sensitive data compute cluster  
+For all the detailed information: [URBLAUNA WIKI UNIL](https://wiki.unil.ch/ci/books/high-performance-computing-hpc/page/urblauna)  
 
 ## CURNAGL & URBLAUNA Characteristics
 
@@ -49,8 +49,12 @@ Getting UNIL access following this [procedure](https://wiki.unil.ch/ci/books/hig
 1. Open a terminal
 2. Command Line:
 
+```py
 	ssh username@curnagl.dcsr.unil.ch
+```
+
 3. Enter your UNIL password
+
 
 ##### Step-by-step in video 
 
@@ -65,7 +69,9 @@ How to connect to Curnagl:
 1. Open a terminal
 2. Command Line:
 
+```py
 	ssh username@u-ssh.dcsr.unil.ch
+```
 
 3. Enter your UNIL password
 4. Enter the verification code from your authenticator phone app
