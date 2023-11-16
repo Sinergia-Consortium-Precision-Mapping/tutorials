@@ -3,3 +3,4 @@ mkdocs-material[imaging]
 mkdocs-video
 mkdocs-encryptcontent-plugin
 pymdown-extensions
+markdown_extensions
