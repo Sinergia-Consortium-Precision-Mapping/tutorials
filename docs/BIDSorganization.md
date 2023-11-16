@@ -1,11 +1,13 @@
 ﻿
 
 
-Brain Imaging Data Structure
-
 
 
 # BIDS ORGANIZATION 
+
+
+Brain Imaging Data Structure
+
 
 Full BIDS specification: [https://bids-specification.readthedocs.io/](https://bids-specification.readthedocs.io/en/stable/)
 

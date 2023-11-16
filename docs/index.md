@@ -11,6 +11,10 @@ Here you can find different tutorials to support the FAIRness of the data and th
 The different aspects covered are the following:
 
 
+# Data Management Plan
+
+
+
 # Data Storage
 
 <a href="https://docs.google.com/presentation/d/1ZWwcAsGAr1E9JHzm2_QTaDomR5hfqQ7unxlJM0U08Xw/edit#slide=id.p"> Introduction and connection to UNIL servers </a>
