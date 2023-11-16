@@ -8,6 +8,7 @@
 [Datalad](https://www.datalad.org/) is an open-source data management solution based on Git and Git-Annex.
 
 Particularly, it can:
+
 - Keep track of your data
 - Create structure
 - Ensure reproducibility
@@ -114,5 +115,7 @@ You can check if all your siblings are correctly set and if the data are stored 
 
 
 
+### Step-by-Step video tutorial
 
+![type:video](./tutos_videos/Tuto_Datalad_AnnexCurnagl.mp4)
 
