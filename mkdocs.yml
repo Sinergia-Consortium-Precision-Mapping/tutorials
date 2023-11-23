@@ -8,7 +8,6 @@ copyright: Copyright &copy; 2023 - 2027  Connectomics Lab, Lausanne University H
 
 nav:
   - 'Home': 'index.md'
-  - 'Change history': 'changes.md'
   - 'Data Management Plan': 'DMP.md'
   - 'Open Science': 'OpenScience.md'
   - 'BIDS organization': 'BIDSorganization.md'
@@ -64,7 +63,7 @@ plugins:
 
 
 extra_css:
-- stylesheets/extra.css
+  - stylesheets/extra.css
 
 
 extra:
