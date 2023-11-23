@@ -18,11 +18,6 @@ nav:
 
 theme:
   name: 'material'
-  palette:
-    accent: 'dark'
-    primary: 'teal'
-  font:
-    code: Cambria
   logo: img/logo.png
   favicon: img/logo.png
   features:
