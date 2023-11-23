@@ -14,7 +14,7 @@ nav:
   - 'BIDS organization': 'BIDSorganization.md'
   - 'UNIL storage': 'ConnexionUNIL.md'
   - 'FlyWheel Platform': 'Flywheel.md'
-  - 'DATALAD': 'Datalad.md'
+  - 'DataLad Workflow': 'Datalad.md'
 
 theme:
   name: 'material'

@@ -101,3 +101,31 @@ How to connect to Urblauna via Command Line:
 
 
 
+## Exchange Data
+
+### Curnagl
+
+Copy of the data can be done via **scp** command
+
+```py
+	# For a directory
+	scp -R /path/to/rep/to/copy path/to/destination
+	# For a file 
+	scp /path/to/rep/to/file.extension path/to/destination
+```
+
+### Urblauna
+
+Copy of the data can be done via **sftp in the /scratch/username** directory only (scp command blocked)
+
+```py
+	# In a terminal
+	sftp username@u-sftp.dcsr.unil.ch
+	# Then enter your UNIL password and your verification code on the authenticator app
+	## To get a directory from Urblauna to your local directory on your computer
+	get -R path/to/directory
+	## To get a push from your local directory on your computer to Urblauna
+	put -R path/ti/directory
+	# Data are pushed in /scratch/username in Urblauna
+
+```

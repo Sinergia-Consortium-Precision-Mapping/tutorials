@@ -2,7 +2,7 @@
 
 
 
-# Datalad workflow
+# Datalad Workflow
 
 
 [Datalad](https://www.datalad.org/) is an open-source data management solution based on Git and Git-Annex.
