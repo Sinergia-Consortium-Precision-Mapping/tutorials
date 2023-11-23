@@ -15,7 +15,7 @@ For all the detailed information: [CURNAGL WIKI UNIL](https://wiki.unil.ch/ci/bo
 
 Sinergia Directory Path
 ```py
-	/work/XXX
+	/work/PRTNR/CHUV/RADMED/phagmann/sinergia2norm
 ```
 
 
@@ -24,11 +24,13 @@ Sinergia Directory Path
 UNIL Sensitive data compute cluster  
 For all the detailed information: [URBLAUNA WIKI UNIL](https://wiki.unil.ch/ci/books/high-performance-computing-hpc/page/urblauna)  
 
-Sinergia Directory Path
+Sinergia Directory Path 
 ```py
-	/work/XXX
+	# For sensitive data
+	/data/PRNTR/CHUV/RADMED/phagmann/sinergia2sens
+	# For archiving [Not frequent access]
+	/archive/PRTNR/CHUV/RADMED/phagmann/sinergia2sens
 ```
-
 
 
 ## Getting the access
