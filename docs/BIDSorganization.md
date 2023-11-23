@@ -18,11 +18,17 @@ Full BIDS specification: [https://bids-specification.readthedocs.io/](https://bi
 
 # TOOLS FOR DATA CONVERSION
 
-- For MRI data:
-    - Heudiconv
+- For MRI data:  
+    - Heudiconv  
+        - [GitHub](https://github.com/nipy/heudiconv)  
+        - [Documentation](https://heudiconv.readthedocs.io/en/latest/)
+    - Dicom2niix
+        - [GitHub](https://github.com/rordenlab/dcm2niix)
+    - Dicom2bids    
+        - [GitHub](https://github.com/UNFmontreal/Dcm2Bids)
+    - Bidskit
+        - [GitHub](https://github.com/jmtyszka/bidskit)
 
-- For EEG data:
-    -
 
-- For MRI&EEG data simultaneously:
-    -
+    
+- For EEG  

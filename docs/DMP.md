@@ -41,12 +41,12 @@ Release on open-neuro:
 
 ## Code Release
 
-Codes and analyses pipeline -- Github Repositories
-For mor reproducibility: encapsulation of the pipeline into conda environments at minima or docker
-The docker allows to reproduce the exact pipeline without meeting the issues of package versions or different Operating System.
-Eventually all the pipelines and developed methods in a software framework.
-Connectomemapper3 was the software which was the outcome of the last sinergia project
-In the continuity, an update will be provided and eventually a remodeling of the software in a more modular organization. 
+Codes and analyses pipeline -- Github Repositories  
+For mor reproducibility: encapsulation of the pipeline into conda environments at minima or docker  
+The docker allows to reproduce the exact pipeline without meeting the issues of package versions or different Operating System.  
+Eventually all the pipelines and developed methods in a software framework.  
+Connectomemapper3 was the software which was the outcome of the last sinergia project  
+In the continuity, an update will be provided and eventually a remodeling of the software in a more modular organization.   
 
 
 
