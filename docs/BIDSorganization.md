@@ -3,7 +3,7 @@
 
 
 
-# BIDS ORGANIZATION 
+# BIDS Organization
 
 
 Brain Imaging Data Structure
@@ -16,7 +16,7 @@ Full BIDS specification: [https://bids-specification.readthedocs.io/](https://bi
     - for [EEG data](https://bids-specification.readthedocs.io/en/stable/04-modality-specific-files/03-electroencephalography.html) 
 
 
-# TOOLS FOR DATA CONVERSION
+## Tools for Data Conversion
 
 - For MRI data:  
     - Heudiconv  

@@ -1,7 +1,7 @@
 ﻿
 
 
-# CONNEXION TO UNIL STORAGE
+# Connexion to UNIL storage
 
 ## UNIL Storage Spaces
 

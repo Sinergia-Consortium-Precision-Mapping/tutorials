@@ -1,6 +1,6 @@
 ﻿
 
-# DATA MANAGEMENT PLAN
+# Data Management Plan
 
 
 ## Data of the project
