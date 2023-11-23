@@ -4,3 +4,6 @@ mkdocs-video
 mkdocs-encryptcontent-plugin
 pymdown-extensions
 markdown_extensions
+markdown-include
+mkdocs-macros-plugin
+pygments

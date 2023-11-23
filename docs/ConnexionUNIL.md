@@ -7,18 +7,27 @@
 
 Two storage spaces are available on UNIL servers to store the project's data.
 
-![2stor](img/2storage.png){width=40%}
+
+### **CURNAGL**: Regular Data
+
+UNIL HPC Cluster    
+For all the detailed information: [CURNAGL WIKI UNIL](https://wiki.unil.ch/ci/books/high-performance-computing-hpc/page/curnagl)  
+
+Sinergia Directory Path
+```py
+	/work/XXX
+```
 
 
-- *REGULAR DATA - CURNAGL*  
-  UNIL HPC Cluster  
-  For all the detailed information: [CURNAGL WIKI UNIL](https://wiki.unil.ch/ci/books/high-performance-computing-hpc/page/curnagl)  
+### **URBLAUNA**:  Sensitive Data   
 
+UNIL Sensitive data compute cluster  
+For all the detailed information: [URBLAUNA WIKI UNIL](https://wiki.unil.ch/ci/books/high-performance-computing-hpc/page/urblauna)  
 
-- *SENSITIVE DATA - URBLAUNA*   
-   UNIL Sensitive data compute cluster  
-   For all the detailed information: [URBLAUNA WIKI UNIL](https://wiki.unil.ch/ci/books/high-performance-computing-hpc/page/urblauna)  
-
+Sinergia Directory Path
+```py
+	/work/XXX
+```
 
 
 
