@@ -17,7 +17,7 @@ The 8 pillars of Open Science defined by the European Commission.
 
 All the datasets released by the consortium must respect the FAIR principles:
 
-![fairprin](img/FAIR.png)
+![fairprin](img/FAIR.png){width=60%}
 
 
 
