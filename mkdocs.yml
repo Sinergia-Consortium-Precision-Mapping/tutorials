@@ -4,7 +4,7 @@ site_author: Precision Brain Mapping Collaborators
 docs_dir: docs/
 repo_name: 'Sinergia-Consortium-Precision-Mapping/tutorials'
 
-copyright: Copyright; 2023
+copyright: Copyright &copy; 2023 - 2027  Connectomics Lab, Lausanne University Hospital
 
 nav:
   - 'Home': 'index.md'
@@ -15,35 +15,6 @@ nav:
   - 'UNIL storage': 'ConnexionUNIL.md'
   - 'FlyWheel Platform': 'Flywheel.md'
   - 'DATALAD': 'Datalad.md'
-plugins:
-  - mkdocs-video:
-      is_video: True
-      video_muted: True
-      video_controls: True
-      css_style:
-        width: "60%"
-  - search: {}
-  - encryptcontent:
-      global_password: 'Sinergia2023'
-      title_prefix: ''
-      summary: 'This website is for SINERGIA collaborator only. '
-      encryption_info_message: 'Please provide the password to access the content.'
-      remember_password: false
-
-markdown_extensions:
-  - attr_list
-  - md_in_html
-  - def_list
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
-  - pymdownx.highlight
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
 
 theme:
   name: 'material'
@@ -64,7 +35,43 @@ theme:
     - content.code.select
     - content.code.copy
     - content.code.annotate
+
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+plugins:
+  - mkdocs-video:
+      is_video: True
+      video_muted: True
+      video_controls: True
+      css_style:
+        width: "60%"
+  - search: {}
+  - encryptcontent:
+      global_password: 'Sinergia2023'
+      title_prefix: ''
+      summary: 'This website is for SINERGIA collaborator only. '
+      encryption_info_message: 'Please provide the password to access the content.'
+      remember_password: false
+
+
+extra_css:
+- stylesheets/extra.css
+
+
 extra:
   version:
     provider: mike
-copyright: Copyright &copy; 2023 - 2027 EM, Connectomics Lab, Lausanne University Hospital
