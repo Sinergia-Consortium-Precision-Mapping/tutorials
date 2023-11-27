@@ -107,6 +107,51 @@ In your local directory again:
 ```
 
 
+### Create a DataLad environment on Curnagl
+
+Git-Annex and DataLad are not installed on Curnagl.  
+However, python and miniconda are, it is then possible to create an environement in which we can install DataLad and its requirements.
+
+#### With Python
+
+To create the python environment
+``` py
+    # Load the necessary packages on Curnagl
+    module load gcc python
+    # Install Datalad via Pip
+    python -m pip install datalad
+    # Create the environment datalad
+    python3 -m env /users/emullier/ENVS/datalad
+```
+
+
+To activate/deactive the environment
+``` py
+    # Activate the environment
+    source /users/emullier/ENVS/datalad/bin activate
+    # Deactivate the enviromment
+    deactivate
+```
+
+#### With Miniconda3
+
+
+To activate/deactive the environment conda datalad_env
+``` py
+    # Load the necessary packages on Curnagl
+    module load gcc miniconda3
+    # Initialize conda
+    conda init bash
+    # Reinitialize bash
+    exec bash
+    # Display the list of existing environments
+    conda env list
+    # Activate the environment
+    conda activate datalad_env
+    # Deactivate the enviromment
+    deactivate
+```
+
 ### A glance on the final configuration
 
 You can check if all your siblings are correctly set and if the data are stored correctly on Github and Curnagl.
