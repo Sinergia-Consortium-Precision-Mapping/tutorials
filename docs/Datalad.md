@@ -194,6 +194,76 @@ To activate/deactive the environment conda datalad_env
     deactivate
 ```
 
+
+### Specific configuration: Enable Curnagl-Curnagl data cloning
+
+The configuration explained above works well expect if you need to create clone of your dataset on Curnagl for processing for example with CPU/GPU of Cunargl and Urblauna.  
+
+Indeed, Git-Annex is not installed by default of any of the UNIL clusters.  
+It can be installed in a conda environment. 
+
+The RIA store is configured via ssh. Consequently, if you try to clone from Github on Curnagl, datalad is gonna download the Git repository from Github and fetch the annexed files via ssh (and doing so trying to ssh itself which is not possible).
+
+A second option would be not to create only the storage repository while create the ria sibling, but also pushing the Git repository by removing the flag '--storage-sibling only'. This would result in the creation of two distinct repositories on the RIA: the Git repository and the storage repository.  
+However, as Git Annex is not installed on the Curnagl, this procedure creates errors while trying to create the Git repository via the create-sibling-ria command and the Git repository is not recognized by Curnagl.  
+
+This can be prevented by creating directly the datalad configuration on Curnagl.   
+
+To create and push the datalad datasets from Curnagl after activation of the datalad environment  
+``` py
+    # In the datalad dataset
+    # Create the RIA git and storage sibling
+    datalad create-sibling-ria -s ANNEX_DIR ria+file:///users/emullier/datalad_test --new-store-ij --alias TEST_DATALAD
+    # Create the github sibling
+    datalad create-sibling-github -d . TEST_datalad --publish-depends ANNEX_DIR -s github-sibling --credential github_token
+    # Push on Github
+    datalad push --to github_sibling
+    # Push on RIA
+    datalad push --to ANNEX_DIR
+```
+
+To clone on Curnagl  from Github
+``` py
+    # Clone from Github
+    datalad clone https://github.com/emullier/TEST_DATALAD
+    # Get all the data
+    cd TEST_DATALAD
+    datalad get . -
+```
+
+To clone on Curnagl from Curnagl RIA
+``` py
+    # Clone from Curnagl RIA
+    datalad clone ria+file///users/emullier/datalad_test/#~TEST_DATALAD
+    # Get all the data
+    cd TEST_DATALAD
+    datalad get . -r
+```
+
+
+To clone locally from Github
+``` py
+    # Clone from Github
+    datalad clone https://github.com/emullier/TEST_DATALAD
+    # Change the annex path (storage repository)
+    cd TEST_DATALAD
+    git annex enableremote ANNEX_DIR-storage url=ria+ssh://emullier@curnagl.dcsr.unil.ch:/users/emullier/datalad_test
+    # Get all the data
+    datalad get . -r 
+```
+
+To clone locally from Curnagl RIA
+``` py
+    # Clone from Github
+    datalad clone https://github.com/emullier/TEST_DATALAD
+    # Change the annex path (storage repository)
+    cd TEST_DATALAD
+    git annex enableremote ANNEX_DIR-storage url=ria+ssh://emullier@curnagl.dcsr.unil.ch:/users/emullier/datalad_test
+    # Get all the data
+    datalad get . -r 
+```
+
+
 ### A glance on the final configuration
 
 You can check if all your siblings are correctly set and if the data are stored correctly on Github and Curnagl.
