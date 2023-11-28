@@ -73,7 +73,9 @@ However, DataLad should be used for data provenance and tracking of all the data
 
 ![unildat](img/UNILstorageSpecs.png){width=45%}
 
-### Create a sibling dataset on Curnagl
+### Create a sibling dataset on Curnagl and Github
+
+#### Create the RIA store on Curnagl
 
 In your local directory (for example, in the neuro-s3-data directory from the previous section)
 
@@ -88,7 +90,7 @@ In your local directory (for example, in the neuro-s3-data directory from the pr
 You can check on Curnagl, the directory 'datalad_test' should have been created. 
 
 
-### Create a sibling (without annex) on Github
+#### Create a sibling (without annex) on Github
 
 In your local directory again:
 
@@ -104,6 +106,29 @@ In your local directory again:
 
     # Push the data
     datalad push --to github_sibling
+```
+
+
+### Create a sibling dataset on Curnagl only
+
+
+Create only one sibling on Curnagl
+
+``` py
+        # Show all the existing siblings
+        datalad siblings
+
+        # Create a RIA store to store all the annex from Git-Annex on Curnagl
+        datalad create-sibling-ria -s ANNEX_DIR ria+ssh://emullier@curnagl.dcsr.unil.ch:/work/PRTNR/CHUV/RADMED/phagmann/sinergia2norm/datalad_test --new-store-ok --alias TEST_DATALAD
+```
+
+Clone the sibling
+
+Clone the dataset from the ria stora of curnagl using the alias name  
+(Without alias name, the dataset can be clone from the dataset ID).  
+
+``` py
+        datalad clone ria+ssh://emullier@curnagl.dcsr.unil.ch:/work/PRTNR/CHUV/RADMED/phagmann/sinergia2norm/datalad_test#~TEST_DATALAD
 ```
 
 
@@ -134,6 +159,23 @@ To activate/deactive the environment
 ```
 
 #### With Miniconda3
+
+Create an environment accesible from Urblauna.  
+On Urblauna, the partition /work from Curnagl is mounted in read-only.  
+If you want to conda environment you are creating to be useable on Urblauna, the environment needs to be created on Curnagl in the /work partition.  
+
+``` py
+    ### Creation on Curnagl only
+    # Load the necessary packages on Curnagl
+    module load gcc miniconda3
+    # Create the conda enviromnent in the /work directory
+    conda create --prefix /work/PRTNR/CHUV/RADMED/phagmann/soft/conda_envs_2/datalad_env
+    ### Activation on Curnagl and/or Urblauna
+    # Activate the environment
+    source activate  /work/PRTNR/CHUV/RADMED/phagmann/soft/conda_envs_2/datalad_env
+    # Deactivate 
+    conda deactivate 
+```
 
 
 To activate/deactive the environment conda datalad_env
