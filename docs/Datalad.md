@@ -255,10 +255,9 @@ To clone locally from Github
 To clone locally from Curnagl RIA
 ``` py
     # Clone from Github
-    datalad clone https://github.com/emullier/TEST_DATALAD
+    datalad clone ria+ssh://emullier@curnagl.dcsr.unil.ch:/users/emullier/datalad_test#~TEST_DATALAD
     # Change the annex path (storage repository)
     cd TEST_DATALAD
-    git annex enableremote ANNEX_DIR-storage url=ria+ssh://emullier@curnagl.dcsr.unil.ch:/users/emullier/datalad_test
     # Get all the data
     datalad get . -r 
 ```
