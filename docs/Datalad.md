@@ -18,7 +18,6 @@ Particularly, it can:
 ## Install DataLad
 
 
-
 ## Basic commands with DataLad
 
 All the possible commands and possibilities with DataLad are exhaustively explained in the [DataLad Handbook](https://handbook.datalad.org/en/latest/)
