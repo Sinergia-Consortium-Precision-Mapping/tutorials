@@ -14,6 +14,7 @@ nav:
   - 'UNIL storage': 'ConnexionUNIL.md'
   - 'FlyWheel Platform': 'Flywheel.md'
   - 'DataLad Workflow': 'Datalad.md'
+  #- 'DS004': 'DS004.md'
 
 theme:
   name: 'material'

@@ -52,6 +52,7 @@ Getting UNIL access following this [procedure](https://wiki.unil.ch/ci/books/hig
 - Connect using your switch edu-ID account  
 - Confirm the identification on your phone using authenticator app.
 
+
 ## Connexion to Storage Spaces
 
 ### Curnagl  
@@ -76,7 +77,7 @@ How to connect to Curnagl:
 ### Urblauna 
 
 #### via Command Line
-1. Open a terminal
+1. Open a terminal (mac, ubuntu or windows powershell)
 2. Command Line:
 
 ```py
@@ -85,6 +86,7 @@ How to connect to Curnagl:
 
 3. Enter your UNIL password
 4. Enter the verification code from your authenticator phone app
+
 
 ##### Step-by-step in video 
 
@@ -129,3 +131,28 @@ Copy of the data can be done via **sftp in the /scratch/username** directory onl
 	# Data are pushed in /scratch/username in Urblauna
 
 ```
+
+Or if you know the destination of your data (to overpass the step of '/scratch/username')
+
+```py
+	# In a terminal
+	sftp username@u-sftp.dcsr.unil.ch:/path/to/destination
+
+```
+
+
+## Change data permissions
+
+When data are uploaded on Urblauna, by default, the person who uploaded the data is the one with the permissions on these data.
+
+To change permissions for everybody in the group to have access to the directory you uploaded
+```py
+	### Give reading and writing permissions to the group
+	chmod u=rwx,g=rwx+s,o=rx /path/to/dir
+	### Reading only permissions to the group
+	chmod u=rwx,g=rx+s,o=rx /path/to/dir
+```
+
+Notes on the abbreviations for permissions on files and directories:
+u:user, g:group, o:others
+r:read, w:write, x:execute
