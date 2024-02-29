@@ -9,7 +9,7 @@ copyright: Copyright &copy; 2023 - 2027  Connectomics Lab, Lausanne University H
 nav:
   - 'Home': 'index.md'
   - 'Data Management Plan': 'DMP.md'
-  - 'Open Science': 'OpenScience.md'
+  #- 'Open Science': 'OpenScience.md'
   - 'BIDS organization': 'BIDSorganization.md'
   - 'UNIL storage': 'ConnexionUNIL.md'
   - 'FlyWheel Platform': 'Flywheel.md'
