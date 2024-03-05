@@ -20,10 +20,15 @@ To access the flywheel CIBM platform, you can in your web browser use the follow
 	flywheel.cibm.ch
 ```
 
-Warning: You need to access it to be connected to one of the university VPN (UNIL, CHUV, UNIGE...).
-
 To connect, you need to us your switch edu-ID profile. 
+The connexion requires a double authentication. 
 
+Our space on Flywheel platform:
+
+```py
+	Lab: connectomics-lab
+	Project: SINERGIA_dataset
+```
 
 
 ### Flywheel - CLI 
@@ -36,6 +41,8 @@ To include dicoms from CLI interface
  
  This should detect the number of sessions and images.
  You can check if the number is consistent with your data and the fw cli will propose you to upload or not the data. 
+
+
 
 
 
