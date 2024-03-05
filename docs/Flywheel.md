@@ -33,6 +33,8 @@ Our space on Flywheel platform:
 
 ### Flywheel - CLI 
 
+### For MRI DICOMS
+
 To include dicoms from CLI interface
 
 ```py
