@@ -14,6 +14,32 @@ We will use it to store the prospective data of the SINERGIA project.
 
 ## How to access Flywheel 
 
+To access the flywheel CIBM platform, you can in your web browser use the following adress:
+
+```py
+	flywheel.cibm.ch
+```
+
+Warning: You need to access it to be connected to one of the university VPN (UNIL, CHUV, UNIGE...).
+
+To connect, you need to us your switch edu-ID profile. 
+
+
+
+### Flywheel - CLI 
+
+To include dicoms from CLI interface
+
+```py
+	fw ingest dicom path/to/dicom/directory connectomics-lab SINERGIA_dataset --subject 01 --session 01
+```
+ 
+ This should detect the number of sessions and images.
+ You can check if the number is consistent with your data and the fw cli will propose you to upload or not the data. 
+
+
+
+
 
 
 
