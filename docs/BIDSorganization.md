@@ -6,8 +6,9 @@
 # BIDS Organization
 
 
-Brain Imaging Data Structure
+## What is BIDS?
 
+Brain Imaging Data Structure
 
 Full BIDS specification: [https://bids-specification.readthedocs.io/](https://bids-specification.readthedocs.io/en/stable/)
 
@@ -16,7 +17,7 @@ Full BIDS specification: [https://bids-specification.readthedocs.io/](https://bi
     - for [EEG data](https://bids-specification.readthedocs.io/en/stable/04-modality-specific-files/03-electroencephalography.html) 
 
 
-## Tools for Data Conversion
+### Tools for Data Conversion
 
 - For MRI data:  
     - Heudiconv  
@@ -33,7 +34,8 @@ Full BIDS specification: [https://bids-specification.readthedocs.io/](https://bi
 - For EEG  
 
 
-## Convert MRI data to BIDS with heudiconv 
+
+## An Example: Convert MRI data to BIDS with heudiconv 
 
 Full heudiconv documentation: https://heudiconv.readthedocs.io/en/latest/ 
 
